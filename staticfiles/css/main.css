@@ -1,0 +1,68 @@
+body {
+    height: 100%;
+    background-color: #E9EBF7 !important;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#main{
+    margin-top: 80px;
+} 
+.clock {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #FC4F4F;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+}
+@media screen and (max-width: 768px) {
+    .clock {
+        font-size: 20px;
+    }
+    #declare p{
+        margin-top: 20px;
+    }
+}
+
+.time{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #2F4F4F;
+}
+.time p{
+    font-size: 20px;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2F4F4F;
+}
+.word{
+    font-size: 20px;
+    font-weight: bold;
+    color: #282b29;
+    background-color: #282b29;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 1%;
+    transition: all 0.5s ease-out;
+}
+
+.word:hover{
+    background-color: #009933;
+    color: #E9EBF7;
+}
+
+#declare p{
+    color: #423a3a;
+    font-size: 12px;
+    text-align: center;
+}
